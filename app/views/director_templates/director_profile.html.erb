@@ -31,13 +31,13 @@
     Created at
   </dt>
   <dd>
-    <%= @director.created_at %>
+    <%= time_ago_in_words(@director.created_at) %> ago
   </dd>
 
   <dt>
     Updated at
   </dt>
   <dd>
-    <%= @director.updated_at %>
+    <%= time_ago_in_words(@director.updated_at) %> ago
   </dd>
 </dl>
